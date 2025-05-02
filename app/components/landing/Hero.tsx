@@ -51,11 +51,12 @@ export const Hero = () => {
                     </div>
 
                     <div
-                        className={`lg:w-full w-full mt-8 lg:mt-0 transition-all duration-1000 delay-500 transform ${
-                            isVisible
-                                ? "translate-y-0 opacity-100"
-                                : "translate-y-10 opacity-0"
-                        }`}
+                        className={`lg:w-full w-full mt-8 lg:mt-0 transition-all duration-1000 
+							delay-300 transform ${
+                                isVisible
+                                    ? "translate-y-0 opacity-100"
+                                    : "translate-y-10 opacity-0"
+                            }`}
                     >
                         {/* Abstract vector graphic representation of workflow automation */}
                         <div className="relative max-w-lg mx-auto">
