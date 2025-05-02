@@ -23,8 +23,8 @@ export const Header = () => {
         <header
             className={`fixed top-0 w-full z-50 transition-all duration-300 ${
                 scrolled
-                    ? "bg-magenta-600 shadow-md py-2"
-                    : "bg-magenta-600 py-4"
+                    ? "bg-magenta-500 shadow-md py-2"
+                    : "bg-magenta-500 py-4"
             }`}
         >
             <div className="animate-fade-in container font-geist mx-auto px-4 sm:px-6 lg:px-8 text-white">
