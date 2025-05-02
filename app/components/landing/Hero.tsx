@@ -9,7 +9,7 @@ export const Hero = () => {
     }, []);
 
     return (
-        <section className="font-geist pt-24 pb-16 md:pt-32 md:pb-20 overflow-hidden h-screen text-black dark:text-white">
+        <section className="font-geist pt-24 pb-16 md:pt-32 md:pb-20 overflow-hidden text-black dark:text-white">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col lg:flex-row items-center">
                     <div className="lg:w-1/2 w-full lg:pr-12">
@@ -21,19 +21,21 @@ export const Hero = () => {
                             }`}
                         >
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                                Custom Software for your{" "}
+                                You've got the{" "}
                                 <div className="relative inline-block">
                                     <span className="relative z-10 text-magenta-500">
-                                        Passion
+                                        Vision
                                     </span>
                                     {/* <span className="absolute bottom-2 left-0 w-full h-3 bg-blue-100 -z-0"></span> */}
                                 </div>
                             </h1>
 
-                            <p className="mt-4 text-xl max-w-2xl">
-                                Custom software solutions that streamline your
-                                business processes, reduce manual work, and
-                                accelerate your growth.
+                            <p className="mt-4 md:text-lg lg:text-xl max-w-2xl">
+                                We bring the tech. Whether you're building a
+                                brand, selling online, or automating the messy
+                                parts of your workflow — we help you launch the
+                                tools you need, without the hassle. Custom
+                                software. Clean design. Clear results.
                             </p>
 
                             <div className="mt-6 flex flex-col sm:flex-row gap-4">
@@ -57,45 +59,41 @@ export const Hero = () => {
                     >
                         {/* Abstract vector graphic representation of workflow automation */}
                         <div className="relative max-w-lg mx-auto">
-                            <div className="absolute -top-12 -right-12 w-48 h-48 bg-magenta-500 rounded-full filter blur-3xl opacity-60"></div>
-                            <div className="absolute -bottom-6 -left-6 w-36 h-36 bg-magenta-500 rounded-full filter blur-3xl opacity-60"></div>
+                            {/* <div className="absolute -top-12 -right-12 w-48 h-48 bg-magenta-500 rounded-full filter blur-3xl opacity-60"></div> */}
+                            {/* <div className="absolute -bottom-6 -left-6 w-36 h-36 bg-magenta-500 rounded-full filter blur-3xl opacity-60"></div> */}
 
-                            <div className="relative z-10 bg-white rounded-xl shadow-xl p-6 border border-gray-100">
+                            <div className="relative z-10 bg-magenta-500 rounded-xl shadow-xl p-6 border border-magenta-900">
+                                <div className="text-white text-2xl font-bold mb-2">
+                                    <h2>Get in Touch</h2>
+                                </div>
                                 <div className="grid grid-cols-3 gap-3 mb-4">
                                     {[1, 2, 3].map((item) => (
                                         <div
                                             key={item}
-                                            className="h-16 rounded-lg bg-linear-to-br from-magenta-50 to-magenta-100 flex items-center justify-center"
+                                            className="rounded-lg bg-linear-to-br bg-white flex items-center justify-center"
                                         >
-                                            <div className="w-8 h-2 bg-magenta-600 rounded-full"></div>
+                                            <div className="h-3 not-[]:bg-magenta-600 rounded-full"></div>
                                         </div>
                                     ))}
                                 </div>
 
-                                <div className="h-24 rounded-lg bg-linear-to-r from-magenta-500 to-magenta-600 mb-4 p-3">
-                                    <div className="flex gap-2 mb-2">
-                                        {[1, 2, 3].map((item) => (
-                                            <div
-                                                key={item}
-                                                className="w-2 h-2 bg-white rounded-full opacity-70"
-                                            ></div>
-                                        ))}
-                                    </div>
-                                    <div className="h-3 w-3/4 bg-white bg-opacity-20 rounded-full mb-2"></div>
-                                    <div className="h-3 w-1/2 bg-white bg-opacity-20 rounded-full"></div>
+                                <div className="h-12 flex flex-row mb-2">
+                                    <input
+                                        className="rounded-lg p-2 w-full bg-white text-black"
+                                        placeholder="Name"
+                                    ></input>
                                 </div>
-
-                                <div className="grid grid-cols-2 gap-3">
-                                    <div className="h-20 rounded-lg bg-linear-to-br from-gray-50 to-gray-100 p-3">
-                                        <div className="h-2 w-3/4 bg-gray-300 rounded-full mb-2"></div>
-                                        <div className="h-2 w-1/2 bg-gray-300 rounded-full mb-2"></div>
-                                        <div className="h-2 w-2/3 bg-gray-300 rounded-full"></div>
-                                    </div>
-                                    <div className="h-20 rounded-lg bg-linear-to-br from-magenta-50 to-magenta-100 p-3">
-                                        <div className="h-2 w-3/4 bg-magenta-400 rounded-full mb-2"></div>
-                                        <div className="h-2 w-1/2 bg-magenta-400 rounded-full mb-2"></div>
-                                        <div className="h-2 w-2/3 bg-magenta-400 rounded-full"></div>
-                                    </div>
+                                <div className="h-12 flex flex-row mb-2">
+                                    <input
+                                        className="rounded-lg p-2 w-full bg-white text-black"
+                                        placeholder="Company or Project Name"
+                                    ></input>
+                                </div>
+                                <div className="h-12 flex flex-row mb-2">
+                                    <input
+                                        className="rounded-lg p-2 w-full bg-white text-black"
+                                        placeholder="Email"
+                                    ></input>
                                 </div>
                             </div>
                         </div>

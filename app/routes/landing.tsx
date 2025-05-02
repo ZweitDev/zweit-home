@@ -3,7 +3,7 @@ import { Hero } from "~/components/landing/Hero";
 
 export default function LandingPage() {
     return (
-        <div className="h-screen">
+        <div className="">
             <Header />
             <Hero />
         </div>
