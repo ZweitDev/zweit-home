@@ -39,7 +39,7 @@ export const Hero = () => {
                             </p>
 
                             <div className="mt-6 flex flex-col sm:flex-row gap-4">
-                                <button className="inline-flex items-center justify-center bg-magenta-600 hover:bg-magenta-700 text-white font-medium py-3 px-6 rounded-md transition-colors group">
+                                <button className="inline-flex items-center justify-center bg-magenta-500 hover:bg-magenta-700 text-white font-medium py-3 px-6 rounded-md transition-colors group">
                                     Get Started
                                     <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                                 </button>
