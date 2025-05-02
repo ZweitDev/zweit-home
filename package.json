@@ -1,41 +1,45 @@
 {
-  "name": "zweit-home",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "react-router build",
-    "dev": "react-router dev",
-    "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
-  },
-  "dependencies": {
-    "@headlessui/react": "^2.2.1",
-    "@react-router/node": "^7.5.0",
-    "@react-router/serve": "^7.5.0",
-    "isbot": "^5.1.17",
-    "lucide-react": "^0.503.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router": "^7.5.0",
-    "unplugin-fonts": "^1.3.1",
-    "wrangler": "^4.14.1"
-  },
-  "devDependencies": {
-    "@react-router/dev": "^7.5.0",
-    "@tailwindcss/vite": "^4.1.5",
-    "@types/node": "^20",
-    "@types/react": "^19.0.1",
-    "@types/react-dom": "^19.0.1",
-    "react-router-devtools": "^1.1.0",
-    "tailwindcss": "^4.1.5",
-    "typescript": "^5.7.2",
-    "vite": "^5.4.11",
-    "vite-tsconfig-paths": "^5.1.4"
-  },
-  "packageManager": "pnpm@10.5.1+sha512.c424c076bd25c1a5b188c37bb1ca56cc1e136fbf530d98bcb3289982a08fd25527b8c9c4ec113be5e3393c39af04521dd647bcf1d0801eaf8ac6a7b14da313af",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild"
-    ]
-  }
+    "name": "zweit-home",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "react-router build",
+        "dev": "react-router dev",
+        "deploy": "npm run build && wrangler deploy",
+        "cf-typegen": "wrangler types",
+        "start": "react-router-serve ./build/server/index.js",
+        "typecheck": "react-router typegen && tsc"
+    },
+    "dependencies": {
+        "@headlessui/react": "^2.2.1",
+        "@react-router/node": "^7.5.0",
+        "@react-router/serve": "^7.5.0",
+        "isbot": "^5.1.17",
+        "lucide-react": "^0.503.0",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "react-router": "^7.5.0",
+        "unplugin-fonts": "^1.3.1"
+    },
+    "devDependencies": {
+        "@cloudflare/vite-plugin": "^1.1.0",
+        "@cloudflare/workers-types": "^4.20250430.0",
+        "@react-router/dev": "^7.5.0",
+        "@tailwindcss/vite": "^4.1.5",
+        "@types/node": "^20",
+        "@types/react": "^19.0.1",
+        "@types/react-dom": "^19.0.1",
+        "react-router-devtools": "^1.1.0",
+        "tailwindcss": "^4.1.5",
+        "typescript": "^5.7.2",
+        "vite": "^5.4.11",
+        "vite-tsconfig-paths": "^5.1.4",
+        "wrangler": "^4.14.1"
+    },
+    "packageManager": "pnpm@10.5.1+sha512.c424c076bd25c1a5b188c37bb1ca56cc1e136fbf530d98bcb3289982a08fd25527b8c9c4ec113be5e3393c39af04521dd647bcf1d0801eaf8ac6a7b14da313af",
+    "pnpm": {
+        "onlyBuiltDependencies": [
+            "esbuild"
+        ]
+    }
 }
