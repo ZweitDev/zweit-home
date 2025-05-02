@@ -23,7 +23,7 @@ export const Hero = () => {
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                                 Custom Software for your{" "}
                                 <div className="relative inline-block">
-                                    <span className="relative z-10 text-purple-500">
+                                    <span className="relative z-10 text-magenta-500">
                                         Passion
                                     </span>
                                     {/* <span className="absolute bottom-2 left-0 w-full h-3 bg-blue-100 -z-0"></span> */}
@@ -37,11 +37,11 @@ export const Hero = () => {
                             </p>
 
                             <div className="mt-6 flex flex-col sm:flex-row gap-4">
-                                <button className="inline-flex items-center justify-center bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-md transition-colors group">
+                                <button className="inline-flex items-center justify-center bg-magenta-600 hover:bg-magenta-700 text-white font-medium py-3 px-6 rounded-md transition-colors group">
                                     Get Started
                                     <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                                 </button>
-                                <button className="inline-flex items-center justify-center bg-white border border-gray-300 hover:border-purple-500 hover:text-purple-600 text-gray-800 font-medium py-3 px-6 rounded-md transition-colors">
+                                <button className="inline-flex items-center justify-center bg-white border border-gray-300 hover:border-magenta-500 hover:text-magenta-600 text-gray-800 font-medium py-3 px-6 rounded-md transition-colors">
                                     See Our Work
                                 </button>
                             </div>
@@ -57,22 +57,22 @@ export const Hero = () => {
                     >
                         {/* Abstract vector graphic representation of workflow automation */}
                         <div className="relative max-w-lg mx-auto">
-                            <div className="absolute -top-12 -right-12 w-48 h-48 bg-purple-400 rounded-full filter blur-3xl opacity-60"></div>
-                            <div className="absolute -bottom-6 -left-6 w-36 h-36 bg-purple-700 rounded-full filter blur-3xl opacity-60"></div>
+                            <div className="absolute -top-12 -right-12 w-48 h-48 bg-magenta-400 rounded-full filter blur-3xl opacity-60"></div>
+                            <div className="absolute -bottom-6 -left-6 w-36 h-36 bg-magenta-700 rounded-full filter blur-3xl opacity-60"></div>
 
                             <div className="relative z-10 bg-white rounded-xl shadow-xl p-6 border border-gray-100">
                                 <div className="grid grid-cols-3 gap-3 mb-4">
                                     {[1, 2, 3].map((item) => (
                                         <div
                                             key={item}
-                                            className="h-16 rounded-lg bg-linear-to-br from-purple-50 to-purple-100 flex items-center justify-center"
+                                            className="h-16 rounded-lg bg-linear-to-br from-magenta-50 to-magenta-100 flex items-center justify-center"
                                         >
-                                            <div className="w-8 h-2 bg-purple-600 rounded-full"></div>
+                                            <div className="w-8 h-2 bg-magenta-600 rounded-full"></div>
                                         </div>
                                     ))}
                                 </div>
 
-                                <div className="h-24 rounded-lg bg-linear-to-r from-purple-500 to-purple-600 mb-4 p-3">
+                                <div className="h-24 rounded-lg bg-linear-to-r from-magenta-500 to-magenta-600 mb-4 p-3">
                                     <div className="flex gap-2 mb-2">
                                         {[1, 2, 3].map((item) => (
                                             <div
@@ -91,10 +91,10 @@ export const Hero = () => {
                                         <div className="h-2 w-1/2 bg-gray-300 rounded-full mb-2"></div>
                                         <div className="h-2 w-2/3 bg-gray-300 rounded-full"></div>
                                     </div>
-                                    <div className="h-20 rounded-lg bg-linear-to-br from-purple-50 to-purple-100 p-3">
-                                        <div className="h-2 w-3/4 bg-purple-400 rounded-full mb-2"></div>
-                                        <div className="h-2 w-1/2 bg-purple-400 krounded-full mb-2"></div>
-                                        <div className="h-2 w-2/3 bg-purple-400 rounded-full"></div>
+                                    <div className="h-20 rounded-lg bg-linear-to-br from-magenta-50 to-magenta-100 p-3">
+                                        <div className="h-2 w-3/4 bg-magenta-400 rounded-full mb-2"></div>
+                                        <div className="h-2 w-1/2 bg-magenta-400 rounded-full mb-2"></div>
+                                        <div className="h-2 w-2/3 bg-magenta-400 rounded-full"></div>
                                     </div>
                                 </div>
                             </div>

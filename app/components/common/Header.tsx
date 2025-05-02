@@ -27,7 +27,7 @@ export const Header = () => {
                     : "bg-magenta-600 py-4"
             }`}
         >
-            <div className="container font-geist mx-auto px-4 sm:px-6 lg:px-8 dark:text-white text-black">
+            <div className="animate-fade-in container font-geist mx-auto px-4 sm:px-6 lg:px-8 text-white">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center">
                         <Code className="h-8 w-8 " />
@@ -45,7 +45,7 @@ export const Header = () => {
                                         href={`#${item
                                             .toLowerCase()
                                             .replace(" ", "-")}`}
-                                        className="font-medium hover:text-purple-900 transition-colors"
+                                        className="font-medium hover:text-white transition-colors"
                                     >
                                         {item}
                                     </a>
@@ -55,7 +55,7 @@ export const Header = () => {
                         )}
                     </nav>
 
-                    <button className="hidden md:block bg-purple-500 text-white hover:bg-purple-700 font-medium py-2 px-4 rounded-md transition-colors">
+                    <button className="hidden md:block bg-gray-50 text-black hover:bg-magenta-300 font-medium py-2 px-4 rounded-md transition-colors">
                         Contact Us
                     </button>
 
@@ -70,7 +70,7 @@ export const Header = () => {
 
                 {/* Mobile menu */}
                 {isMenuOpen && (
-                    <div className="bg-white rounded-lg px-2 md:hidden mt-4 pt-4 pb-4">
+                    <div className="bg-white text-black rounded-lg px-2 md:hidden mt-4 pt-4 pb-4">
                         <nav className="flex flex-col space-y-4">
                             {["Services", "Case Studies", "Team", "Blog"].map(
                                 (item) => (
@@ -86,7 +86,7 @@ export const Header = () => {
                                     </a>
                                 )
                             )}
-                            <button className="bg-purple-500 hover:bg-purple-900 text-white font-medium py-2 px-4 rounded-md transition-colors self-start">
+                            <button className="bg-magenta-500 hover:bg-magenta-700 text-white font-medium py-2 px-4 rounded-md transition-colors self-start">
                                 Contact Us
                             </button>
                         </nav>
