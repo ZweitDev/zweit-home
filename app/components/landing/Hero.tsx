@@ -31,7 +31,7 @@ export const Hero = () => {
                             </h1>
 
                             <p className="mt-4 md:text-lg lg:text-xl max-w-2xl">
-                                We bring the tech. Whether you're building a
+                                We've got the tech. Whether you're building a
                                 brand, selling online, or automating the messy
                                 parts of your workflow — we help you launch the
                                 tools you need, without the hassle. Custom
