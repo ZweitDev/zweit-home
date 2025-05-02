@@ -65,14 +65,14 @@ export const Hero = () => {
                                     {[1, 2, 3].map((item) => (
                                         <div
                                             key={item}
-                                            className="h-16 rounded-lg bg-gradient-to-br from-purple-50 to-purple-100 flex items-center justify-center"
+                                            className="h-16 rounded-lg bg-linear-to-br from-purple-50 to-purple-100 flex items-center justify-center"
                                         >
                                             <div className="w-8 h-2 bg-purple-600 rounded-full"></div>
                                         </div>
                                     ))}
                                 </div>
 
-                                <div className="h-24 rounded-lg bg-gradient-to-r from-purple-500 to-purple-600 mb-4 p-3">
+                                <div className="h-24 rounded-lg bg-linear-to-r from-purple-500 to-purple-600 mb-4 p-3">
                                     <div className="flex gap-2 mb-2">
                                         {[1, 2, 3].map((item) => (
                                             <div
@@ -86,12 +86,12 @@ export const Hero = () => {
                                 </div>
 
                                 <div className="grid grid-cols-2 gap-3">
-                                    <div className="h-20 rounded-lg bg-gradient-to-br from-gray-50 to-gray-100 p-3">
+                                    <div className="h-20 rounded-lg bg-linear-to-br from-gray-50 to-gray-100 p-3">
                                         <div className="h-2 w-3/4 bg-gray-300 rounded-full mb-2"></div>
                                         <div className="h-2 w-1/2 bg-gray-300 rounded-full mb-2"></div>
                                         <div className="h-2 w-2/3 bg-gray-300 rounded-full"></div>
                                     </div>
-                                    <div className="h-20 rounded-lg bg-gradient-to-br from-purple-50 to-purple-100 p-3">
+                                    <div className="h-20 rounded-lg bg-linear-to-br from-purple-50 to-purple-100 p-3">
                                         <div className="h-2 w-3/4 bg-purple-400 rounded-full mb-2"></div>
                                         <div className="h-2 w-1/2 bg-purple-400 krounded-full mb-2"></div>
                                         <div className="h-2 w-2/3 bg-purple-400 rounded-full"></div>

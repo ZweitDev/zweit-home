@@ -26,7 +26,7 @@ export function ZweitHome() {
                         <PopoverPanel
                             anchor="bottom"
                             className="flex flex-col border-2 border-white rounded-md p-2 mt-2
-							transition duration-200 ease-in data-[closed]:opacity-0"
+							transition duration-200 ease-in data-closed:opacity-0"
                         >
                             <a href="offers/development">
                                 Cloud and Software Development
