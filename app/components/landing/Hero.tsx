@@ -95,6 +95,9 @@ export const Hero = () => {
                                         placeholder="Email"
                                     ></input>
                                 </div>
+                                <button className="mt-2 rounded-md text-white border-gray-100 border-1 text-lg hover:bg-white hover:text-black transition-all p-2">
+                                    Send a message
+                                </button>
                             </div>
                         </div>
                     </div>
