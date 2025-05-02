@@ -55,7 +55,7 @@ export const Header = () => {
                         )}
                     </nav>
 
-                    <button className="hidden md:block bg-gray-50 text-black hover:bg-magenta-300 font-medium py-2 px-4 rounded-md transition-colors">
+                    <button className="hidden md:block bg-gray-50 text-black hover:text-white hover:bg-gray-900 font-medium py-2 px-4 rounded-md transition-colors">
                         Contact Us
                     </button>
 

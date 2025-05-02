@@ -57,8 +57,8 @@ export const Hero = () => {
                     >
                         {/* Abstract vector graphic representation of workflow automation */}
                         <div className="relative max-w-lg mx-auto">
-                            <div className="absolute -top-12 -right-12 w-48 h-48 bg-magenta-400 rounded-full filter blur-3xl opacity-60"></div>
-                            <div className="absolute -bottom-6 -left-6 w-36 h-36 bg-magenta-700 rounded-full filter blur-3xl opacity-60"></div>
+                            <div className="absolute -top-12 -right-12 w-48 h-48 bg-magenta-500 rounded-full filter blur-3xl opacity-60"></div>
+                            <div className="absolute -bottom-6 -left-6 w-36 h-36 bg-magenta-500 rounded-full filter blur-3xl opacity-60"></div>
 
                             <div className="relative z-10 bg-white rounded-xl shadow-xl p-6 border border-gray-100">
                                 <div className="grid grid-cols-3 gap-3 mb-4">
