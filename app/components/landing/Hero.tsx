@@ -66,7 +66,7 @@ export const Hero = () => {
                                 <div className="text-white text-2xl font-bold mb-2">
                                     <h2>Get in Touch</h2>
                                 </div>
-                                <div className="grid grid-cols-3 gap-3 mb-4">
+                                {/* <div className="grid grid-cols-3 gap-3 mb-4">
                                     {[1, 2, 3].map((item) => (
                                         <div
                                             key={item}
@@ -74,8 +74,11 @@ export const Hero = () => {
                                         >
                                             <div className="h-3 not-[]:bg-magenta-600 rounded-full"></div>
                                         </div>
-                                    ))}
-                                </div>
+                                    ))} 
+                                    <hr></hr>
+                                </div> 
+								*/}
+                                <hr className="mb-4" />
 
                                 <div className="h-12 flex flex-row mb-2">
                                     <input
